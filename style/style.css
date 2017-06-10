@@ -1,0 +1,154 @@
+
+
+
+h1 {
+    color: brown;
+    text-align: center;
+    padding: 30px;
+    border: 1px dotted green;
+    font-size: 30px;
+    background: #FFFFEF;
+}
+
+
+input#zip {
+    margin: 50px;
+    height: 40px;
+    width: 140px;
+    font-size: 18px; 
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+button#data {
+    height: 40px;
+    width: 80px;
+    font-size: 16px;
+    border-radius: 20px;
+    border: 2px solid black;
+    background: #5CE0DB;
+}
+
+div#city {
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    color: orange;
+}
+
+div#tempNow {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: orange;
+    margin: 20px;
+}
+
+div#desc {
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    color: orange;
+    margin: 10px;
+}
+
+div#min {
+    display: inline-block;
+    margin-left: 120px;
+    font-size: 24px;
+    color: orange;
+    padding-top: 20px;
+    line-height: 35px;
+    position: absolute;
+    height: 30px;
+    width: 40px;
+}
+div#max {
+    display: inline-block;
+    margin-left: 235px;
+    font-size: 24px;
+    color: orange;
+    padding-top: 20px;
+    line-height: 35px;
+    position: absolute;
+}
+
+
+
+
+
+@media only screen and (min-width: 900px) {
+h1 {
+    color: brown;
+    background: skyblue;
+    text-align: center;
+    padding: 30px;
+    border: 1px dotted green;
+    font-size: 50px;
+}
+
+
+input#zip {
+    margin: 50px;
+    margin-left: 480px;
+    height: 40px;
+    width: 140px;
+    font-size: 18px; 
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+button#data {
+    height: 40px;
+    width: 80px;
+    font-size: 16px;
+    border-radius: 20px;
+    border: 2px solid black;
+    background: #5CE0DB;
+}
+
+div#city {
+    text-align: center;
+    font-size: 34px;
+    font-weight: bold;
+    color: darkblue;
+}
+
+div#tempNow {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: darkblue;
+    margin: 20px;
+}
+
+div#desc {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: darkblue;
+    margin: 20px;
+}
+
+div#min {
+    display: inline-block;
+    margin-left: 500px;
+    font-size: 34px;
+    color: darkblue;
+    padding-top: 20px;
+    line-height: 50px;
+    position: absolute;
+    height: 30px;
+    width: 40px;
+}
+div#max {
+    display: inline-block;
+    margin-left: 670px;
+    font-size: 34px;
+    color: darkblue;
+    padding-top: 20px;
+    line-height: 50px;
+    position: absolute;
+}
+
+}
